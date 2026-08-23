@@ -21,13 +21,11 @@ The ALU performs arithmetic and logical operations on two 4-bit input operands a
 ```text
 4-Bit-ALU-Verilog/
 │
-├── 03_Simulation_Evidence/
-│   ├── EPWave_Waveform_Screenshot.png
-│   └── EDA_Playground_Console_Code_Screenshot.png
-│
-├── 4bit_ALU_Zeravia_Submission_Package/
-│   ├── design.sv
-│   ├── testbench.sv
-│   └── project documentation
-│
+├── ALU_Architecture_Diagram.png
+├── EDA_Playground_Console_Code_Screenshot.jpeg
+├── EPWave_Waveform_Screenshot.jpeg
+├── design.sv
+├── testbench.sv
+├── simulation_console_output.txt
+├── verification_results.csv
 └── README.md
