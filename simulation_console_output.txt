@@ -1,0 +1,28 @@
+[2026-08-20 16:02:53 UTC] iverilog '-Wall' '-g2012' design.sv testbench.sv && unbuffer vvp a.out
+VCD info: dumpfile alu_sim.vcd opened for output.
+==============================================
+        4-BIT ALU FUNCTIONAL TEST
+==============================================
+PASS | A=0101 B=0011 SEL=000 | OUT=1000 CARRY=0 ZERO=0
+PASS | A=1000 B=0011 SEL=001 | OUT=0101 CARRY=0 ZERO=0
+PASS | A=1100 B=1010 SEL=010 | OUT=1000 CARRY=0 ZERO=0
+PASS | A=1100 B=1010 SEL=011 | OUT=1110 CARRY=0 ZERO=0
+PASS | A=1100 B=1010 SEL=100 | OUT=0110 CARRY=0 ZERO=0
+PASS | A=1010 B=0000 SEL=101 | OUT=0101 CARRY=0 ZERO=0
+PASS | A=0101 B=0000 SEL=110 | OUT=0110 CARRY=0 ZERO=0
+PASS | A=0101 B=0000 SEL=111 | OUT=0100 CARRY=0 ZERO=0
+PASS | A=1111 B=0001 SEL=000 | OUT=0000 CARRY=1 ZERO=1
+PASS | A=0101 B=0101 SEL=001 | OUT=0000 CARRY=0 ZERO=1
+PASS | A=1111 B=0000 SEL=110 | OUT=0000 CARRY=1 ZERO=1
+PASS | A=0000 B=0000 SEL=111 | OUT=1111 CARRY=1 ZERO=0
+==============================================
+        TEST SUMMARY
+==============================================
+PASS COUNT = 12
+FAIL COUNT = 0
+RESULT = ALL TESTS PASSED
+==============================================
+testbench.sv:155: $finish called at 12000 (1ps)
+Finding VCD file...
+./alu_sim.vcd
+[2026-08-20 16:02:54 UTC] Opening EPWave...
